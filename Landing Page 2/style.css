@@ -131,6 +131,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
@@ -280,7 +281,6 @@ p {
 
 .consultoria-services-info {
     width: 60%;
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -344,19 +344,20 @@ p {
 .suporte-info {
     width: 60%;
     padding-right: 20px;
+   margin-left: 20px;
 }
 
 .suporte-info h1 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #333;
+
 }
 
 .suporte-info p {
     font-size: 18px;
     color: #666;
     margin-bottom: 15px;
-    text-align:justify ;
 }
 
 .suporte-chat-btn {
@@ -423,7 +424,7 @@ p {
     font-size: 1.2em;
     line-height: 1.6;
     margin: 0;
-    text-align: justify;
+   
 }
 
 /* Estilos da imagem */
